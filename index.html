@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Visit Lesotho - Kingdom in the Sky</title>
+<style>
+*{margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, sans-serif;
+}
+body{
+  background:#ffffff;
+  color:#1a2340;
+}
+img{max-width:100%;height:auto;display:block;}
+
+header{
+  background:white;
+  padding:14px 5%;
+  display:flex;
+  justify-content:space-between;
+
+  align-items:center;
+  box-shadow:0 2px 10px rgba(0,0,0,0.06);
+  position:sticky;
+  top:0;
+  z-index:10;
+}
+.logo{
+  font-weight:900;
+  font-size:20px;
+  color:#0f3d8e;
+  line-height:1.1;
+}
+.logo small{
+  display:block;
+  font-size:12px;
+  color:#0f8bc3;
+  font-weight:700;
+  margin-top:-2px;}
+nav{
+  display:flex;
+  align-items:center;
+  gap:20px;
+}
+nav a{
+  text-decoration:none;
+  color:#333;
+  font-size:14px;
+}
+nav a.active{
+  color:#1565c0;
+  font-weight:700;
+  border-bottom:2px solid #1565c0;
+  padding-bottom:3px;}
+
+.book{
+  background:#1565c0;
+  color:white !important;
+  padding:9px 18px;
+  border-radius:10px;
+  font-weight:700;
+  text-decoration:none;
+}
+
+/* HERO */
+.hero{
+  background:#e6eefb;
+  padding:30px 5%;
+  display:grid;
+  grid-template-columns:1.1fr 1fr;
+  gap:30px;
+  align-items:center;
+}
+.hero h1{
+  font-size:42px;
+  line-height:1.1;
+
+  color:#0f3d8e;
+  font-weight:900;
+}
+.hero h1 span{color:#1565c0;display:block;}
+.hero p{
+  margin:14px 0 22px 0;
+  font-size:13px;
+  color:#333;
+  line-height:1.5;
+  max-width:480px;
+}
+.btns{display:flex;
+  gap:12px;
+  flex-wrap:wrap;
+}
+.btn-blue{
+  background:#1565c0;
+  color:white;
+  padding:12px 22px;
+  border-radius:10px;
+  text-decoration:none;
+  font-weight:700;
+
+  font-size:14px;
+  border:none;
+}
+.btn-white{
+  background:white;
+  color:#0f3d8e;
+  padding:11px 22px;
+  border-radius:10px;
+  text-decoration:none;
+  font-weight:700;
+  font-size:14px;
+  border:1.5px solid #0f3d8e;
+}
+.hero-img img{
+  width:100%;
+  height:300px;
+  object-fit:cover;
+  border-radius:20px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.15);
+}
+
+/* DESTINATIONS */
+.destinations{
+  padding:35px 5%;
+  text-align:center;
+  background:white;
+}
+.destinations h2{
+  font-size:28px;
+  color:#0f3d8e;
+  margin-bottom:8px;
+}
+.destinations .sub{
+  color:#444;
+  font-size:14px;
+  margin-bottom:22px;
+}
+.cards{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:22px;
+  text-align:left;
+}
+.card{
+  background:white;
+  border-radius:18px;
+  padding:12px;
+  box-shadow:0 6px 20px rgba(0,0,0,0.08);
+  border:1px solid #eef2f8;
+}
+
+.card img{
+  width:100%;
+  height:170px;
+  object-fit:cover;
+  border-radius:14px;
+}
+.card h3{
+  text-align:center;
+  margin:14px 0 6px 0;
+  font-size:16px;
+  color:#0f3d8e;
+}
+.card p.desc{
+  text-align:center;
+  font-size:11px;
+  color:#555;
+  margin-bottom:10px;
+}
+.tag{
+  display:block;
+  width:fit-content;
+
+  margin:0 auto;
+  background:#eef3ff;
+  color:#0f3d8e;
+  font-size:11px;
+  padding:4px 10px;
+  border-radius:20px;
+}
+.grid{display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:20px;
+}
+
+footer{
+  text-align:center;
+  padding:18px;
+  background:#0f3d8e;
+  color:white;
+  font-size:13px;
+}
+
+@media(max-width:900px){
+  .hero{grid-template-columns:1fr;}
+  .hero h1{font-size:32px;}
+  .cards{grid-template-columns:1fr;}
+  nav{gap:10px;flex-wrap:wrap;}
+
+}
+</style>
+
+
+
+</head>
+<body>
+        <header>
+            <div class="logo">VISIT LESOTHO</div>     
+            <nav>
+        
+            <a href="Home.html">Home</a>
+             <a href="About.html">About</a>
+              <a href="Services.html">Services</a>
+               <a href="Gallery.html">Gallery</a>
+                <a href="Contact.html">Contact Us</a>
+            </nav>
+        </header>
+        <section class="hero">
+             <div class="grid">
+              
+        <h1>KINGDOM IN THE SKY-LESOTHO</h1>
+        <H2>Discover Lesotho</H2>
+        <h2>The Kingdom in the Sky</h2>
+        <p>Did you know: Lesotho is the only country in the world completely above 1000m</p>
+        <p class="sesotho">Khotso Pula Nala-peace, rain,prosperity</p>
+        <a href="#" class="btn">Explore now</a>
+        </div>
+        <div class="hero-right">
+            <!--cultural village.jpg-->
+            <img src="house.jpg" alt="cultural houses">
+        </div>
+        </section>
+
+        <section class="destinations">
+        <h2>Top Destinations to Explore</h2>        
+        <p class="sub">From alphine peaks to historic fortresses</p>
+        <div class="grid">
+        <div class="cards">
+            <div class="card">
+                        
+        <img src="afri - Copy.webp" >
+        <h4>Afriski</h4>
+        <p>The only ski resort in Africa below the Sahara,at 3222m:Open May to August for skiing and snowboarding</p>
+            </div>
+        </div>
+            <div class="card">
+                
+                <img src="thaba1.jpg"thaba bosiu">
+                <div class="card-body">
+                    <h4>Thaba Bosiu</h4>
+                    <p>Name means"mountain at night".Birthplace of Basotho nation</p>
+                </div>
+            </div>
+             <div class="card">
+                <!---->
+                <img src="katse6.webp" alt="">
+                <div class="card-body">
+                    <h4>Katse Dam</h4>
+                    <p>Stunning alphine reservoir and part of Lesotho Highlands Water Project wit h breathtaking views</p>
+                </div>
+             </div>
+            </div>
+        </section>
+          
+        <footer>
+            2026 VisitLesotho | Kingdom in the Sky
+         </footer>
+    </body>
+</html>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us | VISIT LESOTHO</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Services - Visit Lesotho</title>
+<style>
+*{margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+body{
+    background:#f2f5fb;
+    color:#1a2340;}
+header{
+    background:white;
+    padding:18px 5%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-shadow:0 2px 10px rgba(0,0,0,0.08);
+    position:sticky;top:0;
+    z-index:10;}
+.logo{
+    font-weight:900;
+    font-size:22px;
+}
+nav a{margin-left:15px;
+    text-decoration:none;
+    color:#333;
+    font-size:14px;
+}
+nav a.active{
+    color:#3b5bdb;
+    font-weight:700;
+    border-bottom:2px solid #3b5bdb;
+    padding-bottom:3px;}
+
+.hero{
+    background:linear-gradient(120deg,#122054,#2f5bff);
+    color:white;
+    padding:60px 5%;
+    text-align:center;
+}
+.hero h1{
+    font-size:36px;
+    margin-bottom:10px;
+}
+.hero p{
+    opacity:0.9;
+    max-width:700px;
+    margin:0 auto;
+}
+
+.services{padding:40px 5%;}
+.services h2{
+    text-align:center;
+    margin-bottom:8px;
+}
+.services .sub{
+    text-align:center;
+    color:#666;
+    margin-bottom:30px;
+}
+.grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+}
+
+.card{
+    background:white;
+    border-radius:14px;
+    padding:22px;
+    box-shadow:0 6px 18px rgba(0,0,0,0.07);
+    transition:0.3s;
+}
+.card:hover{
+    transform:translateY(-4px);
+}
+.icon{
+    width:50px;
+    height:50px;
+    background:#e8efff;
+    color:#2f5bff;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:22px;
+    margin-bottom:12px;
+    font-weight:800;
+}
+.card h3{margin-bottom:8px;color:#1a2a6c;}
+.card p{
+    font-size:13px;
+    color:#555;
+    line-height:1.6;
+    margin-bottom:12px;
+}
+.price{color:#2f5bff;
+    font-weight:800;
+    font-size:14px;}
+
+.box{
+  background:white;           
+  border-radius:16px;         
+  padding:28px;               
+  box-shadow:0 8px 20px rgba(0,0,0,0.08); 
+}
+
+input, textarea{
+  width:100%;                 
+  padding:12px;               
+  border:1px solid #d0d7e6;   
+  border-radius:8px;          
+}
+
+.btn{
+  background:#2f5bff;         
+
+  border:none;
+  border-radius:10px;         
+  padding:14px;
+  box-shadow:0 4px 10px rgba(47,91,255,0.3); 
+}
+
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#1a2a6c;
+    color:white;
+    margin-top:40px;
+}
+@media(max-width:800px){
+    .grid{grid-template-columns:1fr;}
+    }
+</style>
+<body>
+    <header>
+        <div class="logo">VISIT LESOTHO</div>
+        <nav>
+              <a href="Home.html">Home </a>
+             <a href="About.html">About</a>
+              <a href="Services.html">Services</a>
+               <a href="Gallery.html">Gallery</a>
+                <a href="Contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <div class="hero">
+        <h1>Contact Us-Plan your trip to Lesotho</h1>
+        <p>Have questions about travelling to the Lesotho? We're here to help you</p>
+    </div>
+    <div class="contact-wrap">
+        <div class="box.">
+            <h2>Send us a message</h2>
+            <label>Name</label>
+            <input type="text" placeholder="Your fullname">
+            <label>Email</label>
+            <input type="email" placeholder="Your@email.com">
+            <label>Message</label>
+            <textarea placeholder="Tell us how can we assist you"></textarea>
+            <button class="btn" onclick="alert(message sent! We will reply within 24 hours. )">send message</button>
+            <p style="text-align: center;color: #666;font-size: 13px;margin-top: 12px;">we respond within 24 hours</p>
+
+        </div>
+    </div>
+    <footer>
+        2026 VisitLesotho | Kingdom in sky
+    </footer>
+</body>
+</html>
